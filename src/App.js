@@ -51,6 +51,11 @@ function App() {
 
   return (
     <div className="App">
+      <h1 className="App-title">Real-Time Object Detector</h1>
+      <p className="instructions">
+        Allow access to camera and simply put objects in the frame to start the
+        detection!
+      </p>
       <header className="App-header">
         <Webcam
           ref={webcamRef}
